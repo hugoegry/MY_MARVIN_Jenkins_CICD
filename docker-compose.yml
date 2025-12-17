@@ -1,0 +1,16 @@
+services:
+  jenkins:
+    user: root
+    privileged: true
+    build: .
+    ports:
+      - 50000:50000
+      - 8080:8080
+    environment:
+      USER_CHOCOLATEEN_PASSWORD: "${USER_CHOCOLATEEN_PASSWORD}"
+      USER_VAUGIE_G_PASSWORD: "${USER_VAUGIE_G_PASSWORD}"
+      USER_I_DONT_KNOW_PASSWORD: "${USER_I_DONT_KNOW_PASSWORD}"
+      USER_NASSO_PASSWORD: "${USER_NASSO_PASSWORD}"
+    tmpfs:
+      - /tmp:size=2G
+      - /var/jenkins_home:size=4G
