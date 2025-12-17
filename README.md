@@ -1,4 +1,4 @@
-# 🤖 MY_MARVIN_ -- Jenkins Configuration as Code (EPITECH Project)
+# 🤖 MY_MARVIN -- Jenkins Configuration as Code (EPITECH Project)
 
 ## 📌 Présentation du projet
 
