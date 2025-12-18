@@ -139,34 +139,34 @@ Copier `my_marvin.yml` dans `JENKINS_HOME` ou configurer le plugin **Configurati
 
 | Critère            | Description                                                             | Obtenu |
 |--------------------|-------------------------------------------------------------------------|--------|
-| 01-yaml-exist      | A my_marvin.yml file exists                                             | 🟥🟩  |
-| 02-yaml-valid      | The my_marvin.yml file is valid JCasc YAML                              | 🟥🟩  |
-| 03-no-vuln         | No security vulnerabilities are present                                 | 🟥🟩  |
-| 04-system-message  | The instance is configured with a proper system message                 | 🟥🟩  |
-| 05-no-signup       | The sign-up is disallowed                                               | 🟥🟩  |
-| 06-user-hugo       | The user `Hugo` exists, proper id & password via env                    | 🟥🟩  |
-| 07-user-garance    | The user `Garance` exists, proper id & password via env                 | 🟥🟩  |
-| 08-user-jeremy     | The user `Jeremy` exists, proper id & password via env                  | 🟥🟩  |
-| 09-user-nassim     | The user `Nassim` exists, proper id & password via env                  | 🟥🟩  |
-| 10-role-essential  | Only 4 roles: admin, ape, gorilla, assist                               | 🟥🟩  |
-| 11-role-admin      | Correct description, permissions, assigned to Hugo                      | 🟥🟩  |
-| 12-role-ape        | Correct description, permissions, assigned to Jeremy                    | 🟥🟩  |
-| 13-role-gorilla    | Correct description, permissions, assigned to Garance                   | 🟥🟩  |
-| 14-role-assist     | Correct description, permissions, assigned to Nassim                    | 🟥🟩  |
-| 15-dsl-exists      | job_dsl.groovy exists at root                                           | 🟥🟩  |
-| 16-dsl-valid       | job_dsl.groovy is valid                                                 | 🟥🟩  |
-| 17-tools           | Folder named `Tools` exists                                             | 🟥🟩  |
-| 18-job-clone       | Job `clone-repository` respects specifications                          | 🟥🟩  |
-| 19-job-seed        | Job `SEED` respects specifications                                      | 🟥🟩  |
-| 20-job-dsl         | `SEED` job DSL is valid                                                 | 🟥🟩  |
-| 21-job-specs       | Jobs created by SEED respect specifications                             | 🟥🟩  |
-| 22-perfection      | All achievements obtained                                               | 🟥🟩  |
+| 01-yaml-exist      | A my_marvin.yml file exists                                             |   🟩   |
+| 02-yaml-valid      | The my_marvin.yml file is valid JCasc YAML                              |   🟩   |
+| 03-no-vuln         | No security vulnerabilities are present                                 |   🟩   |
+| 04-system-message  | The instance is configured with a proper system message                 |   🟩   |
+| 05-no-signup       | The sign-up is disallowed                                               |   🟩   |
+| 06-user-hugo       | The user `Hugo` exists, proper id & password via env                    |   🟩   |
+| 07-user-garance    | The user `Garance` exists, proper id & password via env                 |   🟩   |
+| 08-user-jeremy     | The user `Jeremy` exists, proper id & password via env                  |   🟩   |
+| 09-user-nassim     | The user `Nassim` exists, proper id & password via env                  |   🟩   |
+| 10-role-essential  | Only 4 roles: admin, ape, gorilla, assist                               |   🟩   |
+| 11-role-admin      | Correct description, permissions, assigned to Hugo                      |   🟩   |
+| 12-role-ape        | Correct description, permissions, assigned to Jeremy                    |   🟩   |
+| 13-role-gorilla    | Correct description, permissions, assigned to Garance                   |   🟩   |
+| 14-role-assist     | Correct description, permissions, assigned to Nassim                    |   🟩   |
+| 15-dsl-exists      | job_dsl.groovy exists at root                                           |   🟩   |
+| 16-dsl-valid       | job_dsl.groovy is valid                                                 |   🟩   |
+| 17-tools           | Folder named `Tools` exists                                             |   🟩   |
+| 18-job-clone       | Job `clone-repository` respects specifications                          |   🟩   |
+| 19-job-seed        | Job `SEED` respects specifications                                      |   🟩   |
+| 20-job-dsl         | `SEED` job DSL is valid                                                 |   🟩   |
+| 21-job-specs       | Jobs created by SEED respect specifications                             |   🟩   |
+| 22-perfection      | All achievements obtained                                               |   🟩   |
 
 ---
 
 ## 🏅 Note finale
 
-> **Note : ../22**
+> **Note : 22/22**
 
 ---
 
